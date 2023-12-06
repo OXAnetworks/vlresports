@@ -37,5 +37,5 @@ jobs:
           file: ./dockerfile
           context: .
           push: true
-          tags: landsys.net:5000/vlresports:${{ github.ref_name }}
+          tags: registry.oxanetwork.com/vlresports:${{ github.ref_name }}
           network: host
